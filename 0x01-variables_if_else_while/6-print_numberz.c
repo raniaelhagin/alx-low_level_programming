@@ -3,7 +3,7 @@
 /**
  * main - main function Entry point
  *
- * Description: print digits using putchar 
+ * Description: print digits using putchar
  *
  * Return: Always 0 (Success)
  */
