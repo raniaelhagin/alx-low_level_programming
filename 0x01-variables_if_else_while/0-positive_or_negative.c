@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Description: 'the program's description'
  *
@@ -24,7 +24,7 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else
+	else if (n % 2 == 1)
 	{
 		printf("%d is negative\n", n);
 	}
