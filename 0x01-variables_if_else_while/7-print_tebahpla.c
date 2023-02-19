@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: 'print alphabets'
- * 
+ *
  * * Return: Always 0 (Success)
  */
 int main(void)
