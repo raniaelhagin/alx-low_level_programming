@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'print all possible 
+ * Description: 'print all possible
  * combinations of single-digit numbers'
  *
  * Return: 0 (Success)
@@ -11,6 +11,7 @@
 int main(void)
 {
 	int i;
+
 	i = 48;
 	while (i < 58)
 	{
