@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	int i = 97;
 
@@ -18,5 +18,4 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
