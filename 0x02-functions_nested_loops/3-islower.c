@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _islower - checks for lowercase character
- * @parameterc: integer value of a character
+ * _islower - checks for lowercase charactei
+ * @c: integer value of a character
  *
  * Return: 1 if the character is lowercase and 0 otherwise
  */
