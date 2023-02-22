@@ -1,0 +1,4 @@
+1- define i = 0 >> takes values from 0 to 24 
+2- define j = 0 >> takes values from 0 to 59
+3- loop on i. putchar(i/10 + 48), _putchar(i%10 + 48), _putchar(':') 
+4- loop on j inside the first loop.  putchar(j/10 + 48), _putchar(j%10 + 48)
