@@ -3,9 +3,9 @@
 
 /**
  * _islower - checks for lowercase character
+ * @parameterc: integer value of a character
  *
- * Return: 1 if the character is lowercase 
- * and 0 otherwise
+ * Return: 1 if the character is lowercase and 0 otherwise
  */
 int _islower(int c)
 {
