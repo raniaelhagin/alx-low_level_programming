@@ -5,6 +5,7 @@
 
 /**
  * positive_or_negative - check if the number is +ve or -ve or 0
+ * @n: the integer
  *
  * Return: Always 0 (Success)
  */
