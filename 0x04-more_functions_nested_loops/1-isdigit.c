@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks for a digit (0 through 9)
- * @c: ascii code of the input 
+ * @c: ascii code of the input
  *
  * Return: 1 if c is a digit and 0 otherwise
  */
