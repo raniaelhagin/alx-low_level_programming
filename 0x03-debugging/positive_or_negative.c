@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * positive_or_negative - check if the number is +ve or -ve or 0
  *
  * Return: Always 0 (Success)
  */
-int positive_or_negative(int n)
+void positive_or_negative(int n)
 {
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -24,6 +25,4 @@ int positive_or_negative(int n)
 	{
 		printf("%d is negative\n", n);
 	}
-
-	return (0);
 }
