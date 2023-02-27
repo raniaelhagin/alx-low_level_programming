@@ -12,7 +12,8 @@ void puts_half(char *str)
 	int n;
 
 	/* get the length of the string */
-	while ( str[i] != '\0')
+	i = 0;
+	while (str[i] != '\0')
 	{
 		i++;
 	}
@@ -24,7 +25,7 @@ void puts_half(char *str)
 	{
 		n = (i - 1) / 2;
 	}
-	while ( str[n] != '\0')
+	while (str[n] != '\0')
 	{
 		_putchar(str[n]);
 		n++;
