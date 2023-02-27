@@ -8,24 +8,24 @@
  */
 void rev_string(char *s)
 {
-	/* get the length of a string */
 	int i = 0;
 	int j = 0;
-	char *tmp;
-	int length = 0;
+	char tmpC;
 
+	/* get the length of the string */
 	while (s[i] != '\0')
 	{
-		length++;
 		i++;
 	}
-
+	
+	j = i - 1;
 	i = 0;
-	j = length - 1;
-	tmp = s;
-	while (j >= 0)
+
+	while (j > i)
 	{
-		tmp[i] = s[j];
+		tmpC = s[i];
+		s[i] = s[j];
+		s[j] = tmpC;
 		i++;
 		j--;
 	}
