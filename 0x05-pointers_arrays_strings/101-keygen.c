@@ -10,13 +10,16 @@
 int main(void)
 {
 	int i = 0;
-	char pass[8];
+	char pass;
 
 	srand(time(NULL));
 	while (i < 8)
 	{
-		pass[i] = rand() % 10;
+		pass = rand() % 10 + '0';
 		i++;
+		printf("%c", pass);
 	}
-	printf("%s", pass);
+	printf("\n");
+
+	return (0);
 }
