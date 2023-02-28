@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
+
 /**
  * _atoi - a function that convert a string to an integer
  * @s: the string to be converted
