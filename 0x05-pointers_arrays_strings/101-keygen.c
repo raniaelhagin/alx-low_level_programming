@@ -45,6 +45,7 @@ int main(void)
 		}
 		i++;
 	}
+	printf("Tada! Congrats\n");
 
 	return (0);
 }
