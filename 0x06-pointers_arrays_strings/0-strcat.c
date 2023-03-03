@@ -2,12 +2,13 @@
 #include "_strlen.c"
 
 /**
- * _strcat - appends the src string to the dest string,
- * overwriting the terminating null byte (\0) at the end of dest,
- * and then adds a terminating null byte
+ * _strcat - concatenate two strings
  * @dest: the destination to append the source string
  * @src: the source string to be appended
- *
+ * 
+ * Description: appends the src string to the dest string,
+ * overwriting the terminating null byte (\0) at the end of dest,
+ * and then adds a terminating null byte
  * Return: a pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)
