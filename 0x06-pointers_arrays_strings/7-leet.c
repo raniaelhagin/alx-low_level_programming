@@ -19,7 +19,7 @@ char *leet(char *s)
 		{
 			if (s[i] == codes[n] || s[i] == codes[n + 1])
 			{
-				s[i] = digits[n / 2] + '0'; 
+				s[i] = digits[n / 2] + '0';
 			}
 			n += 2;
 		}
