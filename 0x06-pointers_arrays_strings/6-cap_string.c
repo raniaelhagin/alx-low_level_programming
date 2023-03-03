@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
  * cap_string - capitalizes all words of a string
@@ -9,7 +8,7 @@
  */
 char *cap_string(char *s)
 {
-	char sep[13] = {' ', '\t', '\n', ',', '.', '.', '!', '?',
+	char sep[14] = {' ', '\t', '\n', ',', '.', '.', '!', '?', ';',
 	'"', '(', ')', '{', '}'};
 	int i = 0;
 	int n = 0;
@@ -21,15 +20,14 @@ char *cap_string(char *s)
 	}
 	while (s[i] != '\0')
 	{
-		while (n < 13)
+		while (n < 14)
 		{
 			if (s[i] == sep[n])
 			{
-				i++;
-				if (s[i] >= 97 && s[i] <= 122)
+				if (s[i + 1] >= 97 && s[i + 1] <= 122)
 				{
-					s[i] -= 32;
-					continue;
+					s[i + 1] -= 32;
+					break;
 				}
 			}
 			n++;
