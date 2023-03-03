@@ -9,17 +9,22 @@
 char *rot13(char *s)
 {
 	int i = 0;
+	int n = 0;
+	char *input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char *output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	while (s[i] != '\0')
 	{
-		if ((s[i] >= 65 && s[i] <= 77) || (s[i] >= 97 && s[i] <= 109))
+		while (n < 53)
 		{
-			s[i] += 13;
+			if (s[i] == input[n])
+			{
+				s[i] = output[n];
+				break;
+			}
+			n++;
 		}
-		else if ((s[i] >= 78 && s[i] <= 90) || (s[i] >= 110 && s[i] <= 122))
-		{
-			s[i] -= 13;
-		}
+		n = 0;
 		i++;
 	}
 	return (s);
