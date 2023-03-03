@@ -67,7 +67,6 @@ int _strcmp(char *s1, char *s2)
 	else if (s1_len > s2_len)
 	{
 		diff = getDiff(s1, s2);
-
 		return (diff);
 	}
 	else
