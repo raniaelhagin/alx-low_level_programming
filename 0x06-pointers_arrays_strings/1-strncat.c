@@ -5,6 +5,7 @@
  * _strncat - concatenate two strings
  * @dest: the destination to append the source string
  * @src: the source string to be appended
+ * @n: the n bytes to be appended
  *
  * Description: it will use at most n bytes from src; and
  * src does not need to be null-terminated if it contains n or more bytes
