@@ -18,7 +18,7 @@ int _strcmp(char *s1, char *s2)
 	int s2_len = _strlen(s2);
 	int i = 0;
 	int j = 0;
-
+	
 	if (s1_len == s2_len)
 	{
 		while (s1[i] != '\0')
@@ -30,7 +30,7 @@ int _strcmp(char *s1, char *s2)
 			}
 			i++;
 		}
-
+		
 		return (diff);
 	}
 	else if (s1_len > s2_len)
@@ -49,7 +49,6 @@ int _strcmp(char *s1, char *s2)
 		{
 			diff = (s1[i] - ' ');
 		}
-
 		return (diff);
 	}
 	else
@@ -68,7 +67,7 @@ int _strcmp(char *s1, char *s2)
 		{
 			diff = (' ' - s2[j]);
 		}
-
+		
 		return (diff);
 	}
 }
